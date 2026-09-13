@@ -28,7 +28,7 @@ public class SpaceshipDirector {
         return builder
                 .setHull("Stainless steel")
                 .setEngine("Hyperdrive")
-                .setShieldStrength(15)
+                .setShieldStrength(30)
                 .build();
     }
 }
