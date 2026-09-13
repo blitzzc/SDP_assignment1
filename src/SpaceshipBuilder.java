@@ -28,8 +28,8 @@ public class SpaceshipBuilder {
         return this;
     }
 
-    public SpaceshipBuilder setHasLifeSupport(boolean hasLifeSupport) {
-        this.hasLifeSupport = hasLifeSupport;
+    public SpaceshipBuilder addLifeSupport() {
+        this.hasLifeSupport = true;
         return this;
     }
 
